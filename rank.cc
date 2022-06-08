@@ -21,6 +21,6 @@ int main()
     for(auto i : r)
     {
         cout << i << endl;
-    }
+    
     return 0;
 }
