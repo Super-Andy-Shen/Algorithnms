@@ -9,7 +9,6 @@ int partition(vector<int> &a,int low, int high)
     {
         if(a[j] < key)
         {
-            
             swap(a[j],a[i]);
             i = i + 1;
         }
